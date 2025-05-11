@@ -23,11 +23,11 @@ public class NuGetDependencyModel
 	// Gets the version string needed for a NuGet package dependency, which we adjust to allow floating revisions
 	public string GetPackageVersionString ()
 	{
-		var mavenVersion = MavenArtifact!.MavenArtifactVersion!;
+		var mavenVersion = MavenArtifact?.MavenArtifactVersion;
 		var nugetVersion = NuGetVersion!;
 
 		// If this isn't an exact version we don't use this code
-		if (!mavenVersion.StartsWith ('[') || !mavenVersion.EndsWith (']') || mavenVersion.Contains (','))
+		if (mavenVersion == null || !mavenVersion.StartsWith ('[') || !mavenVersion.EndsWith (']') || mavenVersion.Contains (','))
 			return nugetVersion;
 
 		// An exact version is requested like "1.2.0", however we want to let the revision (4th NuGet number) float,

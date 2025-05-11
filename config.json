@@ -9,6 +9,532 @@
     ],
     "artifacts": [
       {
+        "groupId": "com.appodeal.ads.sdk.networks",
+        "artifactId": "bidmachine",
+        "version": "3.5.2.0",
+        "nugetVersion": "3.5.2",
+        "nugetId": "Xamarin.Appodeal.Ads.SDK.Networks.Bidmachine",
+        "comments": "",
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+      },
+      {
+        "groupId": "com.appodeal.ads.sdk.networks",
+        "artifactId": "bidon",
+        "version": "3.5.2.0",
+        "nugetVersion": "3.5.2",
+        "nugetId": "Xamarin.Appodeal.Ads.SDK.Networks.Bidon",
+        "comments": "",
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+      },
+      {
+        "groupId": "com.appodeal.ads.sdk.networks",
+        "artifactId": "iab",
+        "version": "3.5.2.0",
+        "nugetVersion": "3.5.2",
+        "nugetId": "Xamarin.Appodeal.Ads.SDK.Networks.Iab",
+        "comments": "",
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+      },
+      {
+        "groupId": "com.appodeal.ads.sdk.services",
+        "artifactId": "sentry_analytics",
+        "version": "3.5.2.0",
+        "nugetVersion": "3.5.2",
+        "nugetId": "Xamarin.Appodeal.Ads.SDK.Services.SentryAnalytics",
+        "comments": "",
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+      },
+      {
+        "groupId": "com.appodeal.ads.sdk",
+        "artifactId": "core",
+        "version": "3.5.2",
+        "nugetVersion": "3.5.2",
+        "nugetId": "Xamarin.Appodeal.Ads.SDK.Core",
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+      },
+		   {
+		     "groupId": "com.appodeal",
+		     "artifactId": "protobuf-models",
+		     "version": "1.4.3",
+		     "nugetVersion": "1.4.3",
+         "overrideLicenses": ["Appodeal SDK License Agreement"],
+        "nugetId": "Xamarin.Appodeal.ProtobufModels",
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+      {
+		     "groupId": "org.bidon",
+		     "artifactId": "bidon-sdk",
+		     "version": "0.7.7",
+		     "nugetVersion": "0.7.7",
+		     "nugetId": "Xamarin.Bidon.SDK",
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		  },
+      {
+		     "groupId": "com.explorestack",
+		     "artifactId": "iab",
+		     "version": "1.8.1",
+		     "nugetVersion": "1.8.1",
+		     "nugetId": "Xamarin.Explorestack.IAB",
+         "overrideLicenses": ["Creative Commons Attribution 3.0 License"],
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+		   {
+		     "groupId": "com.explorestack",
+		     "artifactId": "protobuf-java",
+		     "version": "3.16.0",
+		     "nugetVersion": "3.16.0",
+		     "nugetId": "Xamarin.Explorestack.ProtobufJava",
+         "overrideLicenses": ["Creative Commons Attribution 3.0 License"],
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+		   {
+		     "groupId": "com.explorestack",
+		     "artifactId": "protobuf-models",
+		     "version": "1.11.0",
+		     "nugetVersion": "1.11.0",
+		     "nugetId": "Xamarin.Explorestack.ProtobufModels",
+         "overrideLicenses": ["Creative Commons Attribution 3.0 License"],
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+       {
+		     "groupId": "com.appodeal.ads.sdk.core",
+		     "artifactId": "internal",
+		     "version": "3.5.2",
+		     "nugetVersion": "3.5.2",
+		     "nugetId": "Xamarin.Appodeal.Ads.SDK.Core.Internal",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+       {
+		     "groupId": "com.appodeal.ads.sdk.core",
+		     "artifactId": "public",
+		     "version": "3.5.2",
+		     "nugetVersion": "3.5.2",
+		     "nugetId": "Xamarin.Appodeal.Ads.SDK.Core.Public",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+       {
+		     "groupId": "com.appodeal.ads",
+		     "artifactId": "ext",
+		     "version": "3.5.2",
+		     "nugetVersion": "3.5.2",
+		     "nugetId": "Xamarin.Appodeal.Ads.Ext",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+       {
+		     "groupId": "com.appodeal.ads",
+		     "artifactId": "consent",
+		     "version": "3.5.2",
+		     "nugetVersion": "3.5.2",
+		     "nugetId": "Xamarin.Appodeal.Ads.Consent",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+       {
+		     "groupId": "com.appodeal.ads",
+		     "artifactId": "network",
+		     "version": "3.5.2",
+		     "nugetVersion": "3.5.2",
+		     "nugetId": "Xamarin.Appodeal.Ads.Network",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+       {
+		     "groupId": "com.appodeal.ads",
+		     "artifactId": "advertising",
+		     "version": "3.5.2",
+		     "nugetVersion": "3.5.2",
+		     "nugetId": "Xamarin.Appodeal.Ads.Advertising",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+       		   {
+		     "groupId": "com.appodeal.ads",
+		     "artifactId": "analytics",
+		     "version": "3.5.2",
+		     "nugetVersion": "3.5.2",
+		     "nugetId": "Xamarin.Appodeal.Ads.Analytics",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+      {
+        "groupId": "io.bidmachine",
+        "artifactId": "ads",
+        "version": "3.2.0",
+        "nugetVersion": "3.2.0",
+        "nugetId": "Xamarin.Bidmachine",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+      },
+       {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "protobuf-models",
+		     "version": "1.11.0",
+		     "nugetVersion": "1.11.0",
+        "nugetId": "Xamarin.Bidmachine.ProtobufModels",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+       {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "rendering",
+		     "version": "2.3.1",
+		     "nugetVersion": "2.3.1",
+        "nugetId": "Xamarin.Bidmachine.Rendering",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+       {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "analytics",
+		     "version": "2.2.2",
+		     "nugetVersion": "2.2.2",
+        "nugetId": "Xamarin.Bidmachine.Analytics",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+       {
+		     "groupId": "io.bidmachine.libs",
+		     "artifactId": "omsdk",
+		     "version": "1.5.2",
+		     "nugetVersion": "1.5.2",
+        "nugetId": "Xamarin.Bidmachine.Libs.OmSDK",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+       		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam",
+		     "version": "3.2.0.3",
+		     "nugetVersion": "3.2.0.3",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.Gam",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+       		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam_dynamic",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.GamDynamic",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+       		   {
+		     "groupId": "io.bidmachine.util",
+		     "artifactId": "general-util",
+		     "version": "0.4.0",
+		     "nugetVersion": "0.4.0",
+        "nugetId": "Xamarin.Bidmachine.Util.GeneralUtil",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.util",
+		     "artifactId": "app-intents",
+		     "version": "0.4.0",
+		     "nugetVersion": "0.4.0",
+        "nugetId": "Xamarin.Bidmachine.Util.AppIntents",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-exoplayer",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3Exoplayer",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-exoplayer-dash",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3ExoplayerDash",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-exoplayer-hls",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3ExoplayerHLS",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-ui",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3UI",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam.base",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.Gam.Base",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam.versions.v21_0_0",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.Gam.Versions.v21",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam.versions.v22_0_0",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.Gam.Versions.v22",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam.versions.v23_0_0",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.Gam.Versions.v23",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam_dynamic.base",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.GamDynamic.Base",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam_dynamic.versions.v21_0_0",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.GamDynamic.Versions.v21",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam_dynamic.versions.v22_0_0",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.GamDynamic.Versions.v22",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine",
+		     "artifactId": "ads.networks.gam_dynamic.versions.v23_0_0",
+		     "version": "3.2.0.0",
+		     "nugetVersion": "3.2.0.0",
+        "nugetId": "Xamarin.Bidmachine.Ads.Networks.GamDynamic.Versions.v23",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-common",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3Common",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-container",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3Container",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-datasource",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3Datasource",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-decoder",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3Decoder",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-extractor",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3Extractor",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.bidmachine.media3",
+		     "artifactId": "media3-database",
+		     "version": "1.4.1",
+		     "nugetVersion": "1.4.1",
+        "nugetId": "Xamarin.Bidmachine.Media3.Media3Database",
+        "overrideLicenses": ["Bidmachine SDK License Agreement|https://bidmachine.io/sdk-license-agreement/"],
+        "mavenRepositoryType": "Url",
+        "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+        "type": "xbd"
+		   },
+       {
+		     "groupId": "io.sentry",
+		     "artifactId": "sentry-android",
+		     "version": "7.17.0",
+		     "nugetVersion": "7.17.0",
+		     "nugetId": "Xamarin.SentryAndroid",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.sentry",
+		     "artifactId": "sentry-android-core",
+		     "version": "7.17.0",
+		     "nugetVersion": "7.17.0",
+		     "nugetId": "Xamarin.SentryAndroidCore",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.sentry",
+		     "artifactId": "sentry-android-ndk",
+		     "version": "7.17.0",
+		     "nugetVersion": "7.17.0",
+		     "nugetId": "Xamarin.SentryAndroidNDK",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.sentry",
+		     "artifactId": "sentry-android-replay",
+		     "version": "7.17.0",
+		     "nugetVersion": "7.17.0",
+		     "nugetId": "Xamarin.SentryAndroidReplay",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+		   {
+		     "groupId": "io.sentry",
+		     "artifactId": "sentry",
+		     "version": "7.17.0",
+		     "nugetVersion": "7.17.0",
+		     "nugetId": "Xamarin.Sentry",
+         "mavenRepositoryType": "Url",
+         "mavenRepositoryLocation": "https://artifactory.appodeal.com/appodeal/",
+         "type": "xbd"
+		   },
+
+      {
         "groupId": "androidx.activity",
         "artifactId": "activity",
         "version": "1.10.1",
@@ -5266,6 +5792,23 @@
     ],
     "licenses": [
       {
+        "name": "Appodeal SDK License Agreement",
+        "file": "templates/licenses/appodeal.txt",
+        "proprietary": true
+      },
+      {
+        "name": "Bidmachine SDK License Agreement",
+        "file": "templates/licenses/bidmachine.txt",
+        "proprietary": true
+      },
+      {
+        "name": "Creative Commons Attribution 3.0 License",
+        "file": "templates/licenses/cca-3.0.txt",
+        "proprietary": true
+      },
+
+
+      {
         "name": "Android Software Development Kit License",
         "file": "templates/licenses/android-sdk.txt",
         "proprietary": true
@@ -5371,6 +5914,11 @@
       },
       {
         "name": "The MIT License",
+        "file": "templates/licenses/mit.txt",
+        "spdx": "MIT"
+      },
+      {
+        "name": "MIT",
         "file": "templates/licenses/mit.txt",
         "spdx": "MIT"
       },

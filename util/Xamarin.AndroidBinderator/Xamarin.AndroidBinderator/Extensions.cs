@@ -56,7 +56,7 @@ public static class Extensions
 	public static bool Satisfies (this Dependency dependency, string value)
 	{
 		if (!dependency.Version.HasValue ())
-			throw new Exception ("no value");
+			return true;
 
 		var version = MavenVersion.Parse (value);
 		var range = MavenVersionRange.Parse (dependency.Version);
