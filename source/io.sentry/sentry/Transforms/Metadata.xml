@@ -1,0 +1,21 @@
+<metadata>
+  <attr path="/api/package[@name='io.sentry']/class[@name='SentryTraceHeader']/field[@name='SENTRY_TRACE_HEADER']" name="managedName">SentryTraceHeaderName</attr>
+  <attr path="/api/package[@name='io.sentry']/class[@name='BaggageHeader']/field[@name='BAGGAGE_HEADER']" name="managedName">BaggageHeaderName</attr>
+
+  <attr path="/api/package[@name='io.sentry']/class[@name='JsonObjectWriter']/method[@name='beginArray']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry']/class[@name='JsonObjectWriter']/method[@name='beginObject']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry']/class[@name='JsonObjectWriter']/method[@name='endArray']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry']/class[@name='JsonObjectWriter']/method[@name='endObject']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry']/class[@name='JsonObjectWriter']/method[@name='name']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry']/class[@name='JsonObjectWriter']/method[@name='nullValue']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry']/class[@name='JsonObjectWriter']/method[@name='value']" name="return">io.sentry.ObjectWriter</attr>
+
+  <attr path="/api/package[@name='io.sentry.util']/class[@name='MapObjectWriter']/method[@name='beginArray']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry.util']/class[@name='MapObjectWriter']/method[@name='beginObject']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry.util']/class[@name='MapObjectWriter']/method[@name='endArray']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry.util']/class[@name='MapObjectWriter']/method[@name='endObject']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry.util']/class[@name='MapObjectWriter']/method[@name='name']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry.util']/class[@name='MapObjectWriter']/method[@name='nullValue']" name="return">io.sentry.ObjectWriter</attr>
+  <attr path="/api/package[@name='io.sentry.util']/class[@name='MapObjectWriter']/method[@name='value']" name="return">io.sentry.ObjectWriter</attr>
+
+</metadata>
