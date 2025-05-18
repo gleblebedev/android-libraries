@@ -42,10 +42,12 @@
 
   @foreach (var art in @Model.MavenArtifacts) {
       if (art.MavenArtifactPackaging == "aar") {
-        var friendlyArtifactId = art.MavenArtifactId.Replace("-", "");
+        var friendlyArtifactId = art.MavenArtifactId.Replace(".", "_").Replace("-", "");
         var friendlyVersion = art.MavenArtifactVersion.Replace(".", "_").Replace("-", "_");
         var friendlyId = friendlyArtifactId + "_" + friendlyVersion;
-        var url = "https://dl.google.com/dl/android/maven2/" + art.MavenGroupId.Replace(".", "/") + "/" + art.MavenArtifactId + "/" + art.MavenArtifactVersion + "/" + art.MavenArtifactId + "-" + art.MavenArtifactVersion + ".aar";
+        var baseUrl = string.IsNullOrEmpty(art?.MavenArtifactConfig?.MavenRepositoryLocation)?"https://dl.google.com/dl/android/maven2/":art.MavenArtifactConfig.MavenRepositoryLocation;
+        if (!baseUrl.EndsWith("/")) baseUrl += "/";
+        var url = baseUrl + art.MavenGroupId.Replace(".", "/") + "/" + art.MavenArtifactId + "/" + art.MavenArtifactVersion + "/" + art.MavenArtifactId + "-" + art.MavenArtifactVersion + ".aar";
         var xbdKey = friendlyArtifactId + "-" + art.MavenArtifactVersion;
         var xbdAarFile = friendlyArtifactId + "-" + art.MavenArtifactVersion + ".aar";
         var xbdAarPath = xbdKey + "\\" + xbdKey + ".aar";

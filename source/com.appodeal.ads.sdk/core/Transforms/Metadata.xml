@@ -1,0 +1,6 @@
+<metadata>
+	<attr path="/api/package[@name='com.appodeal.ads.storage']/class[@name='A']/field[@name='a']" name="managedName">a</attr>
+	<attr path="/api/package[@name='com.appodeal.ads.storage']/class[@name='B']/field[@name='b']" name="managedName">b</attr>
+        <attr path="/api/package[@name='com.appodeal.ads']/class[@name='B']/field[@name='b']" name="managedName">b</attr>
+	<attr path="/api/package[@name='com.appodeal.ads.utils']/class[@name='Version']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.appodeal.ads.utils.Version']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+</metadata>

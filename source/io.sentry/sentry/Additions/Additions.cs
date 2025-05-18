@@ -6,21 +6,21 @@ namespace IO.Sentry
 	{
 		public override int CompareTo (global::Java.Lang.Object other)
 		{
-			throw new NotImplementedException ();
+			return (int) this.Diff ((SentryDate) other);
 		}
 	}
 	public partial class SentryLongDate
 	{
 		public override int CompareTo (global::Java.Lang.Object other)
 		{
-			throw new NotImplementedException ();
+			return (int) this.Diff ((SentryDate) other);
 		}
 	}
 	public partial class SentryNanotimeDate
 	{
 		public override int CompareTo (global::Java.Lang.Object other)
 		{
-			throw new NotImplementedException ();
+			return (int)this.Diff ((SentryDate) other);
 		}
 	}
 }
